@@ -3,7 +3,7 @@ import { supabase } from './supabaseClient';
 import seedData from './mduData.json';
 import './App.css';
 
-const AES = ['Scott Picco', 'Julie Stanton', 'James Wholey', 'Roxy Scarborough'];
+const AES = ['Scott Picco', 'Steve Davis', 'James Wholey', 'Roxy Scarborough'];
 const STATUSES = ['Not Started', 'Contacted', 'In-Negotiation', 'Signed', 'Lost'];
 
 const STATUS_META = {
@@ -16,14 +16,14 @@ const STATUS_META = {
 
 const AE_COLORS = {
   'Scott Picco':      '#1e40af',
-  'Julie Stanton':    '#166534',
+  'Steve Davis':    '#166534',
   'James Wholey':     '#c2410c',
   'Roxy Scarborough': '#6b21a8',
 };
 
 const AE_INITIALS = {
   'Scott Picco':      'SP',
-  'Julie Stanton':    'JS',
+  'Steve Davis':    'SD',
   'James Wholey':     'JW',
   'Roxy Scarborough': 'RS',
 };
